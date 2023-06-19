@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    background-color: #495e57;
+    height: 450px;
+    padding: 0 15%;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.left {
+    color: white;
+}
+
+header h1 {
+    color: aliceblue;
+    margin-top: 2rem;
+    line-height: 60px;
+    
+}
+
+header p {
+    margin: 2rem 0;
+    max-width: 400px;
+}
+
+header img {
+    margin-top: 45px;
+    position: relative;
+    float: right;
+    height: 350px;
+    width: 600px;
+    aspect-ratio: 5/ 6;
+    object-fit: cover;
+}
+
+header button {
+    padding: 8px;
+    background-color: yellowgreen;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 4px;
+}
