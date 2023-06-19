@@ -9,7 +9,6 @@ function Cards() {
             <button>Online Menu</button>
             </div>
             <div className="bottom">
-                Hello World
             </div>
         </main>
     );
