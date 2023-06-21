@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
-import littlelemon from "./littlelemon.jpg"
+import littlelemon from "../assets/littlelemon.jpg"
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -10,7 +11,7 @@ function Header() {
                 <h2>Chicago</h2>
                 <p> We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
                 <button>
-                    Reserve a table
+                    <Link to="/booking">Reserve a table</Link>
                 </button>
             </div>
                

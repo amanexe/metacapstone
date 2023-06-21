@@ -1,21 +1,18 @@
 import './App.css';
 import { Fragment } from 'react';
-// import { BrowserRouter as Router, Routes } from 'react-router-dom';
-import React from 'react';
-import Nav from "./Nav";
-import Header from './Header';
-import Cards from "./Cards";
-import Footer from "./Footer"
+import Nav from "./components/Nav";
+// import Routing from ".components/Routing";
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <Fragment>
-      <Nav />     
-      <Header /> 
-      <Cards />
-      <Footer />
+        <Nav />
+        {/* <Routing /> */}
+        <Footer />
+    
     </Fragment>
-  );
+  )
 }
 
 export default App;
