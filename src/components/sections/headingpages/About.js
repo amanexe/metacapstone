@@ -1,5 +1,6 @@
-import first from "..assets/first";
-import second from "..assets/second";
+import React from "react";
+import first from "./first.jpg";
+import second from "./second.jpg";
 
 function About () {
     return (
@@ -19,8 +20,8 @@ function About () {
                 </p>
             </section>
             <section className="two-images">
-                <img className="first-img" src={first} alt="firstfoodimage">Food</img>
-                <img className="secong-img" src={second} alt="secondfoodimage">Food</img>
+                <img className="first" src={first} alt="firstfoodimage">Food</img>
+                <img className="second" src={second} alt="secondfoodimage">Food</img>
             </section>
         </article>
     )

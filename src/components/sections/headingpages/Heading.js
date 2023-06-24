@@ -1,9 +1,10 @@
-import food4 from "../assets/food4.jpg";
+import React from "react";
+import food from "./food.jpg";
 
-function Heading {
+function Heading () {
     return (
         <header className="reserve-table">
-            <img className="header-reserve-table" src={food4} alt="Little Lemon Ingredients">
+            <img className="header-reserve-table" src={food} alt="Little Lemon Ingredients">
             </img>
             <div className="reserve-header-text">
                 <h1>About Us</h1>

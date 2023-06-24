@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import navlogo from "../assets/navlogo.png";
+import navlogo from "../asset/navlogo.png";
 import "./Nav.css"
 
 function Nav() {
@@ -8,11 +8,11 @@ function Nav() {
         <nav>
             <img src={navlogo} alt="Nav logo"></img>
         <ul>
-            <li><Link to="/">About</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
             <li><Link to="/">Menu</Link></li>
-            <li><Link to="/">Reservations</Link></li>
-            <li><Link to="/booking">Order Online</Link></li>
-            <li><Link to="/">Login</Link></li>
+            <li><Link to="/bookingform">Order Online</Link></li>
+            <li><Link to="/login">Login</Link></li>
         </ul>
         </nav>
     );
